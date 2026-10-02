@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "zeninability",
+  "version": "${version}",
+  "name": "Zenin Ability",
+  "description": "Glass frame trapping ability for Minecraft 1.20.1 Fabric.",
+  "authors": ["Adam"],
+  "environment": "*",
+  "entrypoints": { "main": ["com.adam.zeninability.ZeninAbility"], "client": ["com.adam.zeninability.ZeninAbilityClient"] },
+  "depends": { "fabricloader": ">=0.14.21", "minecraft": "1.20.1", "fabric-api": ">=0.92.0" }
+}
